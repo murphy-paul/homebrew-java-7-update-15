@@ -1,6 +1,6 @@
 cask :v1 => 'java7_u15' do
   version '1.7.0_15'
-  sha256 'b52bcac56440e7fd0b5db9e331d31d2bd458f588b8b01e52eaf0ad2affaf9da2'
+  sha256 :no_check
 
   url 'http://download.oracle.com/otn/java/jdk/7u15-b03/jdk-7u15-macosx-x64.dmg',
       :cookies => {
